@@ -47,18 +47,28 @@ Este manual está publicado por **[Digital Reasons](https://www.digitalreasons.e
 
 ### Estructura del repositorio
 
-- `data/` — Datasets CSV, reproducibles con semilla fija
+- `data/` — Ficheros XLSX/CSV descargados desde desk.carlosdeanta.net
 - `scripts/` — Scripts R autocontenidos por capítulo
-- `R/` — Paquete deskR: wrapper para la API de desk.carlosdeanta.net
+- `scripts/deskR.R` — Funciones auxiliares para lectura de datos (`desk_read`, `desk_returns`, `desk_close`, `desk_returns_matrix`)
 
 ### Datos
 
-Todas las series financieras se obtienen a través de la API de **desk.carlosdeanta.net** mediante el paquete R `deskR` incluido en este repositorio. Fuente complementaria: Kenneth French Data Library (factores).
+Las series financieras se descargan manualmente desde **[desk.carlosdeanta.net](https://desk.carlosdeanta.net)**, el terminal financiero multi-mercado del autor. El portal ofrece datos OHLCV históricos de más de 1.000 activos en 16 mercados: acciones, divisas, criptomonedas, materias primas, índices de volatilidad, tipos de interés y curvas soberanas.
+
+**Flujo de trabajo:**
+
+1. Acceder a `desk.carlosdeanta.net`
+2. Navegar al activo indicado en cada capítulo
+3. Seleccionar el rango de fechas
+4. Descargar el XLSX y guardarlo en `data/`
+5. Ejecutar el script R correspondiente
+
+Fuente complementaria: Kenneth French Data Library (factores, Cap. 5).
 
 ### Requisitos
 
 - R >= 4.0
-- Paquetes: `tidyverse`, `quantmod`, `rugarch`, `rmgarch`, `PerformanceAnalytics`, `fixest`, `sandwich`, `kableExtra`
+- Paquetes: `tidyverse`, `readxl`, `quantmod`, `rugarch`, `rmgarch`, `PerformanceAnalytics`, `fixest`, `sandwich`, `kableExtra`
 
 ---
 
