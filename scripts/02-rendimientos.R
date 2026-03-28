@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 02: Propiedades Estadisticas de los Rendimientos Financieros
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 02: Propiedades Estadisticas de los Rendimientos
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,6 +9,7 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
 set.seed(242)
 

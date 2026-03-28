@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 11: Modelos de Volatilidad Condicional
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 05: Modelos Multifactoriales
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,7 +9,8 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
-set.seed(1142)
+set.seed(542)
 
 # TODO: Implementar capitulo

@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 19: Flujo de Trabajo Reproducible
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 12: Backtesting, Stress Testing y Validacion
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,7 +9,8 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
-set.seed(1942)
+set.seed(1242)
 
 # TODO: Implementar capitulo

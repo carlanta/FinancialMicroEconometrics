@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 18: Criptoactivos y Finanzas Descentralizadas
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 08: Volatilidad Multivariante y Correlaciones
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,7 +9,8 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
-set.seed(1842)
+set.seed(842)
 
 # TODO: Implementar capitulo

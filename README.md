@@ -1,41 +1,65 @@
-# Microeconometria Aplicada a los Mercados Financieros
+# Econometría del Riesgo Financiero
 
-## Econometria Financiera con R: Teoria, Modelos y Aplicaciones
+## Valoración de Activos, Volatilidad y Gestión del Riesgo con R
 
 **Autor:** Carlos de Anta Puig
-Economista - Perito Financiero
-Profesor de Econometria y Microeconometria
+Economista · Perito Financiero
+Miembro del Colegio de Economistas de Madrid
+Miembro del Instituto Español de Analistas Financieros (IEAF)
+Profesor de Econometría y Microeconometría
 carlos@cwconsultores.com
 
 ---
 
-### Indice
+### Publicación
 
-**Parte I** Fundamentos (Cap. 1-3)
-
-**Parte II** Modelos de Corte Transversal (Cap. 4-7)
-
-**Parte III** Datos de Panel en Finanzas (Cap. 8-10)
-
-**Parte IV** Volatilidad y Riesgo (Cap. 11-12)
-
-**Parte V** Microestructura y Alta Frecuencia (Cap. 13-14)
-
-**Parte VI** Temas Avanzados y Frontera (Cap. 15-18)
-
-**Parte VII** Integracion y Proyecto Final (Cap. 19-20)
+Este manual está publicado por **[Digital Reasons](https://www.digitalreasons.es)**.
 
 ---
 
-### Estructura
+### Índice
 
-- `data/` - Datasets CSV
-- `scripts/` - Scripts R por capitulo
+**Parte I — Fundamentos**
+
+1. Introducción: Econometría y Mercados Financieros
+2. Propiedades Estadísticas de los Rendimientos Financieros
+3. Regresión Lineal en Contexto Financiero
+
+**Parte II — Valoración de Activos**
+
+4. El CAPM y su Contrastación Empírica
+5. Modelos Multifactoriales
+6. Estudios de Eventos
+
+**Parte III — Volatilidad**
+
+7. Modelos de Volatilidad Condicional: GARCH Univariante
+8. Volatilidad Multivariante y Correlaciones Dinámicas
+9. Volatilidad Implícita y Superficies
+
+**Parte IV — Gestión del Riesgo**
+
+10. Value at Risk
+11. Expected Shortfall y Medidas Coherentes de Riesgo
+12. Backtesting, Stress Testing y Validación
+
+---
+
+### Estructura del repositorio
+
+- `data/` — Datasets CSV, reproducibles con semilla fija
+- `scripts/` — Scripts R autocontenidos por capítulo
+- `R/` — Paquete deskR: wrapper para la API de desk.carlosdeanta.net
+
+### Datos
+
+Todas las series financieras se obtienen a través de la API de **desk.carlosdeanta.net** mediante el paquete R `deskR` incluido en este repositorio. Fuente complementaria: Kenneth French Data Library (factores).
 
 ### Requisitos
 
-R >= 4.0 con tidyverse, quantmod, rugarch, fixest, plm, survival, kableExtra
+- R >= 4.0
+- Paquetes: `tidyverse`, `quantmod`, `rugarch`, `rmgarch`, `PerformanceAnalytics`, `fixest`, `sandwich`, `kableExtra`
 
 ---
 
-*Carlos de Anta Puig, 2026. Digital Reasons.*
+*© Carlos de Anta Puig, 2026. Publicado por [Digital Reasons](https://www.digitalreasons.es). Todos los derechos reservados.*

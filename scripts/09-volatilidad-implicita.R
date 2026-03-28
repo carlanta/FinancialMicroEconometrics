@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 12: Gestion del Riesgo: VaR y Expected Shortfall
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 09: Volatilidad Implicita y Superficies
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,7 +9,8 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
-set.seed(1242)
+set.seed(942)
 
 # TODO: Implementar capitulo

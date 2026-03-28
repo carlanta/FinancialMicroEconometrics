@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 06: Variables Dependientes Limitadas y Discretas
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 06: Estudios de Eventos
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,6 +9,7 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
 set.seed(642)
 

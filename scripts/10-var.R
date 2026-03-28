@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 20: Proyecto Integrador
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 10: Value at Risk
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,7 +9,8 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
-set.seed(2042)
+set.seed(1042)
 
 # TODO: Implementar capitulo

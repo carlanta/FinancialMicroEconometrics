@@ -1,6 +1,6 @@
 # =============================================================================
 # Capitulo 01: Introduccion: Econometria y Mercados Financieros
-# Microeconometria Aplicada a los Mercados Financieros
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,6 +9,7 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
 set.seed(142)
 

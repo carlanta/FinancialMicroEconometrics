@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 04: Modelos de Valoracion de Activos: Seccion Cruzada
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 04: El CAPM y su Contrastacion Empirica
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,6 +9,7 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
 set.seed(442)
 

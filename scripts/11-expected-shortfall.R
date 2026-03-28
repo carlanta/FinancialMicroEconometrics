@@ -1,6 +1,6 @@
 # =============================================================================
-# Capitulo 08: Modelos de Datos de Panel: Fundamentos
-# Microeconometria Aplicada a los Mercados Financieros
+# Capitulo 11: Expected Shortfall
+# Econometria del Riesgo Financiero
 # =============================================================================
 #
 # Autor: Carlos de Anta Puig
@@ -9,7 +9,8 @@
 # =============================================================================
 
 library(tidyverse)
+library(deskR)
 
-set.seed(842)
+set.seed(1142)
 
 # TODO: Implementar capitulo
